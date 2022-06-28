@@ -4,14 +4,10 @@ import ReactDOM from 'react-dom/client';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function App() {
-  let message = 'Bye there!'
+  const inputType = "number"
+  const minValue = 5
 
-  if(Math.random() > 0.5) {
-    message = 'Hello There!'
-
-  }
-
-  return <h1>{message}</h1>
+ return <input type ={inputType} min ={minValue}  />
 }
 root.render(
   <React.StrictMode>
