@@ -12,7 +12,7 @@ const App = () => {
         <img src="" alt="avatar" />
       </a>
       <div className="content">
-        <a href="" className='author'>
+        <a href="/" className='author'>
           Sam
         </a>
         <div className="metadata">
